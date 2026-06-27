@@ -14,7 +14,7 @@ Built on the existing **WordPress + PHP** stack as a self-contained custom theme
 
 ## Quick preview (no WordPress needed)
 
-Open [`preview/index.html`](preview/index.html) directly in a browser to see the homepage design. This is a static mirror of the WordPress homepage for review purposes.
+Open [`index.html`](index.html) directly in a browser to see the homepage design, or view it live via GitHub Pages at **https://autologicai.github.io/Company-Website/**. This is a static mirror of the WordPress homepage for review purposes.
 
 ## Install as a WordPress theme
 
@@ -35,11 +35,11 @@ Open [`preview/index.html`](preview/index.html) directly in a browser to see the
 ├── header.php / footer.php # Global chrome (nav, contact, footer)
 ├── front-page.php         # Homepage — assembles the section template parts
 ├── index.php / page.php / 404.php
+├── index.html             # Static homepage preview (served by GitHub Pages)
 ├── template-parts/        # hero, services, solutions, process, why, stats, cta, logos
-├── assets/
-│   ├── css/main.css       # All styling (dark, modern, responsive, accessible)
-│   └── js/main.js         # Sticky header, mobile nav, scroll reveal
-└── preview/index.html     # Static preview of the homepage
+└── assets/
+    ├── css/main.css       # All styling (dark, modern, responsive, accessible)
+    └── js/main.js         # Sticky header, mobile nav, scroll reveal
 ```
 
 ## Design notes
