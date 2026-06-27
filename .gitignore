@@ -1,0 +1,13 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# WordPress (this repo holds only the theme; do not commit a full WP install)
+/wp-admin/
+/wp-includes/
+wp-config.php
+/wp-content/uploads/
+node_modules/
